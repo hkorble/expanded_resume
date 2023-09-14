@@ -21,7 +21,7 @@ render(){
     return(
 <div className='OuterBoxInfo'>
 <div className='Image'>
-  <img src={this.image} alt="Image"/>
+  <img src={this.image} alt="Organization Logo"/>
 </div>
     <div className='Info'><strong>{this.title}</strong><br></br><br></br>{this.position}<br></br><br></br>{this.dates}</div>
     <div className='Link2'> 
