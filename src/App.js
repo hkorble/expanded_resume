@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className='Hunter'>
-        <div><img src={Hunter} alt="Picture of Hunter"/></div>
+        <div><img src={Hunter} alt="Hunter Snapshot"/></div>
       <div className='InfoHunter'><h2>Hunter Korble</h2> <p>September 2023 Snapshot</p>
       <div className='Links'>
       <a href="https://www.instagram.com/hunter_korble/" target="_blank" alt="No Website" rel="noreferrer">Instagram</a><br></br>
