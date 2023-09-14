@@ -21,16 +21,16 @@ render(){
     return(
 <div className='OuterBoxInfo'>
 <div className='Image'>
-  <img src={this.image} />
+  <img src={this.image} alt="Image"/>
 </div>
     <div className='Info'><strong>{this.title}</strong><br></br><br></br>{this.position}<br></br><br></br>{this.dates}</div>
     <div className='Link2'> 
-        <a href={this.link} target="_blank" alt="No Website">See more</a>
+        <a href={this.link} target="_blank" alt="No Website" rel="noreferrer">See more</a>
     </div>
  
     <div className='WebLink'> 
         
-        <a href={this.webLink} target="_blank">{this.webString}</a>
+        <a href={this.webLink} target="_blank" rel="noreferrer">{this.webString}</a>
     </div>
  
 </div>
