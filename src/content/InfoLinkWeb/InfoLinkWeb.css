@@ -1,0 +1,47 @@
+.OuterBoxInfo{
+    display: flex;
+    width: 50%;
+    background-color: lightgrey;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    height: 135px;
+    
+ 
+}
+
+
+.Info {
+    flex: 1;
+    background-color: lightblue; /* Set background color for the title area */
+  
+   
+  }
+  
+  .Link2 {
+
+    line-height: 135px;
+    flex: 1;
+    background-color: lightgreen; /* Set background color for the link area */
+  }
+
+  .WebLink {
+    line-height: 135px;
+    
+    flex: 1;
+    background-color: rgb(222, 127, 116); /* Set background color for the link area */
+
+  }
+  
+  .Image {
+
+    flex: 0.45;
+   
+  }
+
+  
+.Image img {
+    margin-top: 37.5px;
+    max-height: 50px; /* Set a max height for the image */
+    max-width: 100px;
+    width: auto; /* Maintain the aspect ratio */
+  }

@@ -1,0 +1,9 @@
+.Main {
+    display: flex;
+    width: 1800px;
+
+}
+
+.Child {
+    flex: 1; /* Make child elements equally share the available space */
+  }
