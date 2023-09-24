@@ -1,0 +1,60 @@
+.HomePage {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+  }
+
+.Meat{
+
+
+    display: flex;
+  
+   width: 100%;
+  
+}
+
+.HunterZone{
+
+    flex:1;
+    margin-left: 15px;
+}
+
+.Experience{
+    flex:1;
+    margin-left: 15px;
+
+    
+}
+
+.Education{
+    
+    margin-left: 5px;
+
+    
+}
+
+.WhoIAm{
+
+
+    width: 100%;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 1350px) {
+
+
+    .Meat{
+
+
+    display: flex;
+    flex-direction: column;
+       
+       width: 100%
+    }
+
+  
+      
+   
+  }
+

@@ -25,7 +25,7 @@ constructor(props){
         return(
     <div>
         <h2>Who I am</h2>
-    <div className='Main'>
+    <div className='MainTitles'>
         <div className='Child'>
             {
         

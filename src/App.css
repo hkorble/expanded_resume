@@ -1,7 +1,26 @@
 .App {
   text-align: center;
   background-color: beige;
-  overflow-x: hidden;
+  width: 100%;
+ 
+}
+
+.MainContent{
+
+  display: flex;
+}
+
+.Test1{
+
+  flex:1;
+}
+.Test2{
+
+  flex:1;
+}
+
+.HomeZone{
+  flex:3;
 }
 
 .Links{
@@ -11,26 +30,9 @@
 
 }
 
-.Hunter {
-  position: fixed;
-  top: 300px;
-  right: -200px;
-  z-index: 1;
-  display: flex;
-  width: 900px;
-}
-.InfoHunter{
-  position: relative;
-  right: 200px;
- 
 
-}
 
-.Main{
 
-z-index: 2;
-
-}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

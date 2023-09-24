@@ -1,9 +1,24 @@
-.Main {
+.MainTitles {
     display: flex;
-    width: 1800px;
-
+  
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 5px;
+ 
 }
+
+@media screen and (max-width: 800px) {
+    .MainTitles {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        /* Additional styles for screens less than 500px wide go here */
+    }}
+
 
 .Child {
     flex: 1; /* Make child elements equally share the available space */
+    
   }
+

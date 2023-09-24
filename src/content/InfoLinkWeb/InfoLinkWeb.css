@@ -1,12 +1,43 @@
 .OuterBoxInfo{
     display: flex;
-    width: 50%;
-    background-color: lightgrey;
+    
+   
     margin-left: 100px;
     margin-bottom: 15px;
     height: 135px;
+  
+ 
+}
+
+@media screen and (max-width: 1350px) {
+
+
+
+
+  .OuterBoxInfo{
+    display: flex;
+    
+    
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    height: 160px;
+    line-height: 0.9;
     
  
+}
+
+
+.Info {
+  flex: 1;
+  /* Set background color for the title area */
+  text-align: center;
+  display: flex;
+justify-content: center; /* Horizontal centering */
+align-items: center;
+flex-direction: column;
+}
+
 }
 
 
@@ -14,7 +45,6 @@
     flex: 1;
     background-color: lightblue; /* Set background color for the title area */
   
-   
   }
   
   .Link2 {
@@ -35,13 +65,15 @@
   .Image {
 
     flex: 0.45;
-   
+     background-color: rgb(16, 157, 155);
   }
 
   
 .Image img {
     margin-top: 37.5px;
-    max-height: 50px; /* Set a max height for the image */
-    max-width: 100px;
+     /* Set a max height for the image */
+    max-width: 100%;
+    max-height: 100px;
+  
     width: auto; /* Maintain the aspect ratio */
   }

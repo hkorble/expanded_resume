@@ -1,6 +1,6 @@
 .OuterBox{
     display: flex;
-    width: 50%;
+    width: 70%;
     background-color: rebeccapurple;
     margin-left: 100px;
     margin-bottom: 5px;
@@ -10,7 +10,18 @@
  
 }
 
+@media screen and (max-width: 1200px) {
+  .OuterBox{
+  display: flex;
+  width: 90%;
+  background-color: rgb(25, 14, 35);
+  margin-left: 0px;
+  margin-bottom: 5px;
+  height: 30px;
 
+  
+  }
+  }
 
 
 .Title {
