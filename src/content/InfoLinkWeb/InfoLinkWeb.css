@@ -65,7 +65,7 @@ flex-direction: column;
   .Image {
 
     flex: 0.45;
-     background-color: rgb(16, 157, 155);
+     background-color: lightgray;
   }
 
   
